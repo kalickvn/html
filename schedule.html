@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Schedule template</title>
+    <link href="./css/minimal-table.css" rel="stylesheet" type="text/css">
+    <style>
+      .img-speaker{
+        max-width: 100px;
+        display: block;
+        padding-bottom: 5px;  
+        margin: auto;
+      }
+    </style>
+  </head>
+  
+
+  <body>
+    <table class="schedule">
+      <caption>Schedule for Day 1 of the Web Development Conference.</caption>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Topic</th>
+          <th>Speaker</th>
+          <th>Duration</th>
+          <th>Room</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>09:00 AM - 10:00 AM</td>
+          <td>Future of JavaScript</td>
+          <td>
+            <img src="./images/publich-speaker.jpg" class="img-speaker" alt="John Doe"/>
+            John Doe
+          </td>
+          <td>1 hour</td>
+          <td>Main Hall</td>
+        </tr>
+        <tr>
+          <td>10:30 AM - 11:30 AM</td>
+          <td>CSS Animations</td>
+          <td>
+            <img src="./images/man_speaker.jpg" class="img-speaker" alt="John Doe"/>
+            Jane Smith
+          </td>
+          <td>1 hour</td>
+          <td>Room A</td>
+        </tr>
+        <tr>
+          <td>12:00 PM - 01:00 PM</td>
+          <td>Building Accessible Web Apps</td>
+          <td>
+            <img src="./images/publich-speaker.jpg" class="img-speaker" alt="John Doe"/>
+            Chris Johnson
+          </td>
+          <td>1 hour</td>
+          <td>Room B</td>
+        </tr>
+        <tr>
+          <td >02:00 PM - 03:30 PM</td>
+          <td rowspan="2" >Web Security Best Practices</td>
+          <td rowspan="2"  >
+            <img src="./images/man_speaker.jpg" class="img-speaker" alt="John Doe"/>
+            Alex Lee
+          </td>
+          <td rowspan="2"><strong>1.5 hours</strong> (rowspan)</td>
+          <td rowspan="2" >Main Hall</td>
+        </tr>
+        <tr>
+          <td>03:00 PM - 03:30 PM</td>
+          
+          
+          
+        </tr>
+        <tr>
+          <td>04:00 PM - 05:00 PM</td>
+          <td>AI and the Future of Web Development</td>
+          <td>
+            <img src="./images/man_speaker.jpg" class="img-speaker" alt="John Doe"/>
+            Samantha Green
+          </td>
+          <td>1 hour</td>
+          <td>Room A</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Summary</th>
+          <th>5 topics</th>
+          <th>5 speakers</th>
+          <th>5.5 hours</th>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+    <!-- Introduce Video -->
+    <p>
+      <strong>Instruction Video</strong>
+      <br/>
+      <iframe width="853" height="480" src="https://www.youtube.com/embed/ND_AjF_KTD8" title="The Next Decade of Software Development - Richard Campbell - NDC London 2023" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </p> 
+    </body>
+
+</html>

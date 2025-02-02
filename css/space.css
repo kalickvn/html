@@ -1,0 +1,10 @@
+header h1{
+  margin-left: 250px;
+  padding-top: 20px;
+}
+header img{
+  width: 200px;
+  position:absolute;
+  top: 10px;
+  left: 0px;
+}
